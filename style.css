@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0;
+}
+h1{
+    font-size: 70px;
+   color: gray;
+   padding-top: 50px;
+}
+h5{
+    font-size: 20px;
+}
+.name-color{
+    color: orange;
+}
+.flexible-content{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 4%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    font-size: 700;
+    width: 40px;
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+p{
+    padding-bottom: 40px;
+}
+#about-img img{
+    width: 60%;
+}
+.about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+h2{
+   font-size: 40px;
+   text-align: center;
+}
+.recipe p{
+    text-align: center;
+}
+.title{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.title img{
+    width: 100%;
+}
+.title p{
+    text-align: center;
+    padding: 10px 20px;
+}
+.footer-block{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.xx{
+    text-align: center;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.xx h1{
+    font-size: 70px;
+    color: black;
+ }
+.footer-main{
+    padding-top: 10px;
+    background-color: rgb(1, 1, 68);
+    text-align: center;
+}
+.footer-main p{
+    color: white;
+}
