@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 0;
+    margin: 0;
 }
 h1{
     font-size: 70px;
@@ -9,6 +9,15 @@ h1{
 }
 h5{
     font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+ }
+.top{
+    padding-top: 50px;
 }
 .name-color{
     color: orange;
@@ -16,6 +25,9 @@ h5{
 .flexible-content{
     display: flex;
     margin-bottom: 150px;
+}
+#first-girl{
+    margin-top: 60px;
 }
 .half-width{
     width: 50%;
@@ -29,25 +41,28 @@ h5{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
     color: white;
-    font-size: 700;
+    font-size: 18px;
     width: 40px;
     padding: 20px 40px;
     border-radius: 100px;
 }
-p{
-    padding-bottom: 40px;
-}
-#about-img img{
-    width: 60%;
+#about-img{
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 200px;
 }
 .about{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 50px;
 }
-h2{
-   font-size: 40px;
-   text-align: center;
+.about h1{
+    font-size: 70px;
+    color: gray;
+    padding-top: 100px;
+    margin: 0;
+ }
 }
 .recipe p{
     text-align: center;
@@ -71,7 +86,7 @@ h2{
 }
 .footer-block{
     display: flex;
-    width: 90%;
+    width: 88%;
     margin-left: 5%;
     margin-bottom: 5%;
     padding-left: 30px;
@@ -96,6 +111,7 @@ h2{
     padding-top: 10px;
     background-color: rgb(1, 1, 68);
     text-align: center;
+    margin: 0;
 }
 .footer-main p{
     color: white;
